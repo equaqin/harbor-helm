@@ -1,4 +1,6 @@
 # Helm Chart for Harbor
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fequaqin%2Fharbor-helm.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fequaqin%2Fharbor-helm?ref=badge_shield)
+
 
 **Notes:** The master branch is in heavy development, please use the codes on other branch instead. A high available solution for Harbor based on chart can be find [here](docs/High%20Availability.md). And refer to the [guide](docs/Upgrade.md) to upgrade the existing deployment.  
 
@@ -249,3 +251,7 @@ The following table lists the configurable parameters of the Harbor chart and th
 | `redis.external.chartmuseumDatabaseIndex` | The database index for chartmuseum | `3` |
 | `redis.external.password` | The password of external Redis | |
 | `redis.podAnnotations` | Annotations to add to the redis pod | `{}` |
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fequaqin%2Fharbor-helm.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fequaqin%2Fharbor-helm?ref=badge_large)
